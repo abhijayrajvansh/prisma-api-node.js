@@ -1,0 +1,22 @@
+{
+  "name": "prisma-data-modeling",
+  "version": "1.0.0",
+  "description": "complete prisma tutorial",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "build": "tsc -p ."
+  },
+  "author": "https://abhijayrajvansh.com",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "5.16.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "prisma": "^5.16.1",
+    "tsc-watch": "^6.2.0"
+  }
+}
